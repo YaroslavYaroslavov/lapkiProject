@@ -1,0 +1,376 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('./fonts/Comfortaa-Bold.ttf');
+    font-weight: 700;
+    font-style: Bold;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('./fonts/Comfortaa-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #75a170;
+}
+
+.container {
+    width: 908px;
+    margin: auto;
+    border: 100px, solid, red;
+}
+
+.buttonLayer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.toProfile {
+    /* margin-right: -51px; */
+    width: 88px;
+    height: 41px;
+    background: rgba(127, 214, 119, 0.7);
+    border-radius: 10px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 14px;
+    color: #fff;
+}
+
+.inputWrapper {
+    width: 363px;
+    /* margin: auto; */
+    background: rgba(145, 218, 140, 0.7);
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.findInput {
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 14px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.findInput::placeholder {
+    color: #fff;
+}
+
+.searchIco {
+    margin-right: 7px;
+}
+
+.stick {
+    position: absolute;
+    z-index: -1;
+    /* width: 398px; */
+    height: 185px;
+    object-fit: cover;
+    top: 16px;
+}
+
+.inputLayer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 12px;
+    padding-top: 58px;
+}
+
+.navbarButton {
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.mainPage {
+    background-color: white;
+    border-radius: 21px;
+    margin-bottom: 26px;
+}
+
+.titleWrap {
+    padding-top: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.titleText {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    color: #565C58;
+}
+
+.aboutWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 22px;
+}
+
+.mainPageContent {
+    width: 264px;
+    height: 243px;
+    left: 34px;
+    top: 333px;
+    background: #9FB9DB;
+    border-radius: 53px;
+    /* text-align: center; */
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.historyText {
+    text-align: center;
+    width: 236px;
+    height: 218px;
+    margin: auto;
+    margin-top: 13px;
+}
+
+.treeWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9FB9DB;
+    border-radius: 1009px;
+    width: 342px;
+    height: 342px;
+}
+
+.contactsText {
+    width: 232px;
+    height: 217px;
+    margin: auto;
+    margin-top: 9px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.phone {
+    color: #2603AF;
+}
+
+.kartoteka {
+    position: relative;
+    background-color: white;
+    border-radius: 21px;
+    z-index: 1;
+    padding-bottom: 40px;
+    margin-bottom: 26px;
+}
+
+.kartotekaContent {
+    /* position: absolute; */
+    z-index: 3;
+}
+
+.navButtons {
+    width: 400px;
+    height: 36px;
+    background: rgb(145, 218, 140);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.topside {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 16px;
+    padding-bottom: 22px;
+}
+
+.kartotekaBtn {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.pageTitle {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.treeKart {
+    position: absolute;
+    top: 243px;
+    left: 313px;
+    width: 261px;
+    height: 220px;
+}
+
+.columns {
+    display: flex;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    gap: 246px;
+    justify-content: center;
+    padding-top: 53px;
+}
+
+.columnTitlesContent {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.columnAuthorsContent {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.admins {
+    position: relative;
+    background-color: white;
+    border-radius: 21px;
+    z-index: 1;
+    padding-bottom: 7px;
+    margin-bottom: 23px;
+}
+
+.rulesText {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    margin-left: 14px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+}
+
+.fineText {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    margin-left: 14px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    margin-bottom: 23px;
+}
+
+.textWrap {
+    background: #9FB9DB;
+    border-radius: 20px;
+    width: 783px;
+    margin: auto;
+}
+
+.rulesWrap {
+    margin-top: 78px;
+    margin-bottom: 22px;
+}
+
+footer {
+    background-color: white;
+    border-radius: 19px;
+}
+
+.footerTopside {
+    display: flex;
+    align-items: center;
+    padding-bottom: 3px;
+}
+
+.smallStick {
+    margin-right: 51px;
+}
+
+.smallBooks {
+    margin-left: 195px;
+}
+
+.contentInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 9px;
+}
+
+.blockTitle {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #525252;
+}
+
+.blockContent {
+    margin-top: 5px;
+    padding-bottom: 10px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.copyrights {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 9px;
+}
